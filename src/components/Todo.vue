@@ -24,6 +24,8 @@ const addTodo = () => {
         createdAt: new Date().getTime(),
         done: false,
     })
+    todo.value = ''
+    category.value = null
 }
 
 const removeTodo = (todo) => {
